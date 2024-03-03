@@ -1,4 +1,3 @@
 FROM ubuntu
-COPY jinka.war /usr/share/nginx/html
-EXPOSE 8081
+COPY index.html /usr/share/nginx/html
 CMD ["nginx", "-g", "daemon off;"]

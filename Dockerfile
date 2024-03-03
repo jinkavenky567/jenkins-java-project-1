@@ -1,4 +1,4 @@
 FROM ubuntu
-COPY sai.war /usr/share/nginx/html
+COPY jinka.war /usr/share/nginx/html
 EXPOSE 8081
 CMD ["nginx", "-g", "daemon off;"]

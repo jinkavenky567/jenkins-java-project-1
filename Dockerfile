@@ -1,4 +1,4 @@
 FROM ubuntu
-COPY index.html /usr/share/nginx/html
-EXPOSE 80
+COPY sai.war /usr/share/nginx/html
+EXPOSE 8081
 CMD ["nginx", "-g", "daemon off;"]
